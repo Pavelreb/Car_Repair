@@ -1,6 +1,6 @@
 # Car Repair Landing Page
 
-![This is an image]()
+![This is an image](https://github.com/Pavelreb/car_repair_landing_page/blob/master/img/first-screen.jpg?raw=true)
 
 Обучающая верстка сайта с нуля с использованием графического редактора FIGMA, для написания кода использовался текстовый редактор Visual Studio Code макет свёрстан адаптивным и кросбраузерным.
 
