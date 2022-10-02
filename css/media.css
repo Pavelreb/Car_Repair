@@ -1,0 +1,392 @@
+/* * Media */
+@media screen and (max-width: 1210px) {
+    .address-cards-card{
+        padding: 20px;
+    }
+    .address-cards-item-title{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .address-cards-item-desc{
+        font-size: 16px;
+    }
+    .fast-cards-card{
+        padding: 20px;
+    }
+    .fast-cards-card-title{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .fast-cards-card-desc{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header-burger{
+        display: block;
+    }
+    .header-img{
+        width: 50%;
+    }
+    .header-nav{
+        position: fixed;
+        width: 100%;
+        height: 80%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 6;
+        transform: translateX(-100%);
+        transition: .5s all ease-in;
+    }
+    .header-nav-activ{
+        transform: translateX(0);
+    }
+    .header-nav-menu{
+        justify-content: left;
+        padding: 50px 0 50px 50px;
+    }
+    .header-nav-menu-item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .header-nav-menu-item:last-child{
+        margin-bottom: 0;
+    }
+    .header-menu-item-link{
+        font-size: 32px;
+    }
+    .header-nav-close{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        z-index: 7;
+    }
+    .header-nav-close-line{
+        display: block;
+        width: 100%;
+        height: 5px;
+        background: #fff;
+        border-radius: 2px;
+        position: absolute;
+        top: 50%;
+
+    }
+    .header-nav-close-line:first-child{
+        transform: translateY(-50%) rotate(-45deg);
+    }
+    .header-nav-close-line:last-child{
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .header-lang{
+        position: fixed;
+        width: 100%;
+        height: 20%;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.95);
+        z-index: 6;
+        transform: translateX(-100%);
+        transition: .5s all ease-in;
+    }
+    .header-lang-activ{
+        transform: translateX(0);
+        z-index: 6;
+    }
+    .header-lang-menu{
+        justify-content: left;
+        padding: 50px 0 50px 50px;
+    }
+    .header-lang-menu-item-link{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .header{
+        padding-bottom: 10px;
+    }
+    .header-wrapper{
+        padding-top: 10px;
+    }
+    .header-img-pic {
+        height: 45px;
+    }
+    .intro {
+        padding-top: 164px;
+        padding-bottom: 237px;
+    }
+    .intro-title{
+        font-size: 42px;
+        margin-bottom: 28px;
+    }
+    .address-cards-item-title{
+        letter-spacing: 0.05em;
+    }
+    .services-cards-card-miniature-overlay-img-pic{
+        padding: 25px;
+    }
+    .services-cards-card-miniature-overlay-desc{
+        font-size: 16px;
+        bottom: 15px;
+        left: 15px;
+    }
+    .understand-content-title{
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    .understand-content-text{
+        letter-spacing: 0.10em;
+        margin-bottom: 18px;
+    }
+    .fast-title{
+        font-size: 118px;
+    }
+    .fast-subtitle{
+        font-size: 36px;
+    }
+    .fast-cards-card-title{
+        letter-spacing: 0.05em;
+    }
+    .footer-wrap{
+        padding: 30px 0;
+    }
+}
+@media screen and (max-width: 885px) {
+    .intro-show-more{
+        font-size: 16px;
+    }
+    .address-cards-item-img{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 16px;
+    }
+    .address-cards-item-desc{
+        font-size: 14px;
+    }
+    .services{
+        margin-bottom: 74px;
+    }
+    .services-view-all{
+        margin-bottom: 26px;
+    }
+    .services-cards-card-miniature{
+        margin-bottom: 15px;
+    }
+    .services-cards-card-miniature-overlay-desc{
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        max-width: 200px;
+    }
+    .understand-wrap{
+        padding: 74px 0;
+    }
+    .fast{
+        padding: 74px 0;
+    }
+    .fast-cards-card-desc{
+        font-size: 14px;
+    }
+    .contact{
+        padding: 74px 0;
+    }
+    .contact-form-button{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 795px) {
+    .intro{
+        padding: 132px 0 204px 0;
+    }
+    .intro-title{
+        max-width: 550px;
+        font-size: 34px;
+    }
+    .intro-show-more{
+        font-size: 14px;
+        padding: 10px 36px;
+    }
+    .fast-title{
+        font-size: 98px;
+    }
+    .fast-subtitle{
+        font-size: 32px;
+        margin-bottom: 65px;
+    }
+    .contact-title{
+        margin-bottom: 32px;
+    }
+    .contact-form-row{
+        margin-bottom: 32px;
+    }
+    .contact-form-massage{
+        margin-bottom: 32px;
+    }
+    .contact-form-button{
+        padding: 10px 55px;
+    }
+    .footer-desc-text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 665px) {
+    .cards{
+        column-gap: 15px;
+    }
+    .intro{
+        padding: 118px 0 174px 0;
+    }
+    .address-cards-card{
+        padding: 15px;
+    }
+    .address-cards-item-img{
+        margin-bottom: 10px;
+    }
+    .services-cards-card-subtitle{
+        font-size: 16px;
+        letter-spacing: 0.1em;
+    }
+    .services-cards-card-miniature-overlay-img-pic{
+        padding: 15px;
+    }
+    .services-cards-card-miniature-overlay-desc {
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        max-width: 160px;
+    }
+    .understand-content-title{
+        font-size: 18px;
+    }
+    .understand-content-text{
+        font-size: 14px;
+        letter-spacing: 0em;
+    }
+    .understand-content-more{
+        font-size: 16px;
+    }
+    .fast-title{
+        font-size: 82px;
+    }
+    .fast-subtitle{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .intro-title{
+        max-width: 100%;
+    }
+    .header-menu-item-link{
+        font-size: 24px;
+    }
+    .header-nav-close{
+        top: 35px;
+        right: 35px;
+    }
+    .header-lang-menu-item-link{
+        font-size: 24px;
+    }
+    .address{
+        transform: translateX(0);
+        padding: 50px 0;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+    }
+    .card{
+        margin-bottom: 35px;
+    }
+    .card:last-child{
+        margin-bottom: 0px;
+    }
+    .address-cards-card{
+        padding: 20px;
+    }
+    .address-cards-item-img{
+        width: 30px;
+        height: 30px;
+        margin-bottom: 21px;
+    }
+    .address-cards-item-title{
+        font-size: 18px;
+        letter-spacing: 0.15em;
+        margin-bottom: 15px;
+    }
+    .address-cards-item-desc{
+        font-size: 18px;
+    }
+    .services-cards-card-miniature-img{
+        max-height: 705px;
+    }
+    .services-cards-card-subtitle{
+        font-size: 20px;
+        letter-spacing: 0.23em;
+    }
+    .understand-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .understand-img{
+        margin-bottom: 35px;
+    }
+    .fast-title{
+        font-size: 62px;
+    }
+    .fast-subtitle{
+        font-size: 24px;
+    }
+    .fast-cards-card-title{
+        font-size: 18px;
+        letter-spacing: 0.15em;
+        margin-bottom: 15px;
+    }
+    .fast-cards-card-desc{
+        font-size: 18px;
+    }
+    .contact-form{
+        max-width: 100%;
+    }
+    .contact-form-input{
+        margin-right: 0;
+    }
+    .contact-form-textarea{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .address-cards-item-img{
+        width: 25px;
+        height: 25px;
+        margin-bottom: 18px;
+    }
+    .address-cards-item-title{
+        font-size: 18px;
+        letter-spacing: 0.05em;
+    }
+    .contact-form-group{
+        width: 100%;
+        padding-right: 0;
+    }
+    .header-nav-close{
+        top: 25px;
+        right: 25px;
+    }
+    .header-menu-item-link{
+        font-size: 20px;
+    }
+    .header-nav-menu{
+        padding-left: 30px;
+    }
+    .header-lang-menu{
+        padding-left: 30px;
+    }
+    .footer-desc-text{
+        margin-bottom: 10px;
+    }
+    .footer-wrap{
+        padding: 15px 0;
+    }
+}
