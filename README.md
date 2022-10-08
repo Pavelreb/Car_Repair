@@ -1,6 +1,6 @@
 # Car Repair Landing Page
 
-[>>> Просмотр страницы Car Repair <<<](https://pavelreb.github.io/car_repair_landing_page/)
+[>>> Просмотр страницы Car Repair <<<](https://pavelreb.github.io/Car_Repair/)
 
 ![This is an image](https://github.com/Pavelreb/car_repair_landing_page/blob/master/img/first-screen.jpg?raw=true)
 
