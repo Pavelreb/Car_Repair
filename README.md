@@ -1,27 +1,49 @@
-# Car Repair
-## Landing Page
+# 🔧 CARS — лендинг автосервиса
 
-[>>> Просмотр страницы Car Repair <<<](https://pavelreb.github.io/Car_Repair/)
+Адаптивный лендинг автосервиса «Keeping you on the road with service you can trust», свёрстанный с нуля по макету Figma. Карточки услуг с оверлеями, форма обратной связи, переключатель языка, бургер-меню.
 
-![This is an image](https://github.com/Pavelreb/car_repair_landing_page/blob/master/img/first-screen.jpg?raw=true)
+[>>> Открыть сайт <<<](https://pavelreb.github.io/Car_Repair/)
 
-### Описание пректа
-Обучающая верстка сайта с нуля с использованием графического редактора FIGMA, для написания кода использовался текстовый редактор Visual Studio Code макет свёрстан адаптивным и кросбраузерным.
+![Первый экран](img/first-screen.jpg)
 
-### В вёрстке использовались технологии:
-- HyperText Markup Language HTML5
-- Cascading Style Sheets CSS3
-- CSS Flexible Box Layout (Flexbox)
-- CSS Grid Layout
-- JavaScript EC6
+## ✨ Что внутри
 
-### Оптимизация проекта:
-- Компрессия изображений
-- Добавлены префиксы в .css файлы
-- Компрессия .html .css .js файлов
-- Проверка кода на валидность
+- 🖥️ **Первый экран** с оффером и кнопкой «Show more»
+- 📇 **Контакт-карточки** — звонок, запись, адрес
+- 🛠️ **Our Services** — Diagnostic, Tires & Wheels, Engines с hover-оверлеями
+- 🏢 **About** — о компании и ASE-сертификации мастеров
+- ⚡ **Fast & Easy** — процесс работы в три шага
+- 📩 **Contact us** — форма с плавающими лейблами
+- 🍔 **Бургер-меню**, плавный скролл, липкая шапка, переключатель RU/EN
 
-### Материалы проекта:
-Ссылка на макет Figma: [Перейти](https://www.figma.com/file/PHEnhLx8ilm0a446M2KcrR/Car-repair-(Course)?node-id=0:1&utm_source=figma)
+## 🛠️ Технологии
 
-Ссылка на плэйлист серии уроков: [Смотреть](https://www.youtube.com/watch?v=KsbI8zdlu2M&list=PLgzmTiAoPpLpmfmEkQNYezhMhDekTBuia&index=1)
+| Технология | Применение |
+|------------|-----------|
+| **HTML5** | Семантическая разметка |
+| **CSS3 (Flexbox / Grid)** | Раскладка секций и карточек |
+| **Media Queries** | Адаптив под десктоп, планшет и мобильные |
+| **JavaScript (ES6)** | Меню, скролл, липкий хедер — без библиотек |
+| **Figma** | Вёрстка по макету |
+
+## ⚡ Оптимизация
+
+- Продакшен-версия (`index.html` + `css/index.css` + `js/index.js`) минифицирована
+- Читаемые исходники рядом: `main.html`, `css/main.css`, `js/main.js`
+- Сжатые изображения (`*-min.jpg`), локальные шрифты, полный набор favicon
+
+## 🚀 Запуск
+
+Сборка не требуется — достаточно открыть `index.html` в браузере или развернуть на любом статическом хостинге (GitHub Pages, Netlify, Vercel).
+
+## 📁 Структура
+
+```
+Car_Repair/
+├── index.html      # Продакшен (минифицирован)
+├── main.html       # Исходник
+├── css/            # index.css (min) + main.css / media.css / fonts.css / reset.css
+├── js/             # index.js (min) + main.js
+├── fonts/          # Локальные шрифты
+└── img/            # Изображения, SVG, фавиконки
+```
